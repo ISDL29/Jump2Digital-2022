@@ -12,8 +12,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 
-import json
-
 # DATA INGESTION --------------------------------------------------------------
 
 ROOT=os.getcwd()
@@ -68,7 +66,7 @@ pipe_grid={'pre':[identity,drop],
            }
 
 # Model initialization.
-clf=GridSearchCV(pipeline,param_grid=pipe_grid,verbose=0,cv=2)
+clf=GridSearchCV(pipeline,param_grid=pipe_grid,verbose=0,cv=7)
 
 # PREDICTION ------------------------------------------------------------------
 
