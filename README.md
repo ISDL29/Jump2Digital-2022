@@ -32,12 +32,18 @@ La estructura del dataset es la siguiente:
 
 Ver Jump2Digital2022.ipynb
 
+Los gráficos son interactivos, así que se necesita un entorno local con plotly instalado para visualizarlos.
+
 # analysis
 
 Ver Jump2Digital2022.ipynb
 
+Los gráficos son interactivos, así que se necesita un entorno local con plotly instalado para visualizarlos.
+
 # solution
 
 Ver Jump2Digital2022.ipynb
+
+Los gráficos son interactivos, así que se necesita un entorno local con plotly instalado para visualizarlos.
 
 # license
