@@ -82,7 +82,7 @@ clf.fit(X_train,y_train)
 y_test=pd.DataFrame(clf.predict(X_test),columns=['target'])
 
 # Guardado de los resultados de la exploración de hiperparámetros
-clf.cv_results_.to_csv(CV_RES_FILE)
+pd.DataFrame(clf.cv_results_).to_csv(CV_RES_FILE)
 
 # Guardado de las predicciones en formato json y csv
 y_test.to_json(PRED_JSON_FILE,indent=2)
